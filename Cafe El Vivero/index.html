@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Café del Vivero</title>
+
+    <!-- SwiperJs Link -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- Font Awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header Section  starts-->
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <!-- Logo image -->
+      <a href="#" class="logo">
+        Café del Vivero <i class="fas fa-mug-hot"></i
+      ></a>
+
+      <!-- Navbar -->
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#book">book</a>
+      </nav>
+
+      <a href="#book" class="btn">book a table</a>
+    </header>
+
+    <!-- Header Section  ends-->
+
+    <!-- Home section starts -->
+
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3>Café, <br> Siempre Fresco</h3>
+          <a href="#menu" class="btn">Somos Uno <br>Coffee Been</a>
+        </div>
+
+        <div class="image">
+          <img src="icons/coffee-cup.svg" class="main-home-image" alt="" />
+        </div>
+      </div>
+
+      <div class="image-slider">
+        <img src="icons/coffee-cup.svg" alt="" />
+        <img src="icons/chemex (1).svg" alt="" />
+        <img src="icons/coffee-beans.svg" alt="" />
+      </div>
+    </section>
+    <!-- Home section ends -->
+
+    <!-- About section starts -->
+
+    <section class="about" id="about">
+      <h1 class="heading">Visitanos!<span>Porqué escogernos</span></h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/pexels-brigitte-tohm-171292.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">Lo que nos hace especiales!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+            ducimus perferendis provident sequi neque sapiente architecto veniam
+            itaque maxime ipsam.
+          </p>
+          <a href="#review" class="btn">read more</a>
+          <div class="icons-container">
+            <div class="icons">
+              <img src="icons/coffee-tamper.svg" alt="" width="64px" height="64px">
+              <h3>Fresco y de calidad</h3>
+            </div>
+            <div class="icons">
+              <img src="icons/coffee-pot.svg" alt="" width="64px" height="64px">
+              <h3>Nuestros Aliados</h3></h3>
+            </div>
+            <div class="icons">
+              <img src="icons/coffee-tree.svg" alt="" width="64px" height="64px">
+              <h3>Metodos</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section ends -->
+
+<!-- Menu section starts -->
+
+<section class="menu" id="menu">
+
+<h1 class="heading">Nuestro menú <span>siempre fresco</span></h1>
+
+<div class="box-container">
+
+  <a href="#" class="box">
+    <img src="icons/coffee-pot.svg" alt="" width="64px" height="64px">
+    <div class="content">
+      <h3>Nuestro café especial</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, optio.</p>
+      <span>$5000</span>
+    </div>
+  </a>
+
+  <a href="#" class="box">
+    <img src="icons/coffee-glass.svg" alt="" width="64px" height="64px">
+    <div class="content">
+      <h3>Nuestro café especial</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, optio.</p>
+      <span>$7000</span>
+    </div>
+  </a>
+
+  <a href="#" class="box">
+    <img src="icons/coffee-tree.svg" alt="" width="64px" height="64px">
+    <div class="content">
+      <h3>Nuestro café especial</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, optio.</p>
+      <span>$5000</span>
+    </div>
+  </a>
+
+  <a href="#" class="box">
+    <img src="icons/coffee-break.svg" alt="" width="64px" height="64px">
+    <div class="content">
+      <h3>Nuestro café especial</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, optio.</p>
+      <span>$5000</span>
+    </div>
+  </a>
+
+  <a href="#" class="box">
+    <img src="icons/connection.svg" alt="" width="64px" height="64px">
+    <div class="content">
+      <h3>Nuestro café especial</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, optio.</p>
+      <span>$5000</span>
+    </div>
+  </a>
+
+  <a href="#" class="box">
+    <img src="icons/chemex (1).svg" alt="" width="64px" height="64px">
+    <div class="content">
+      <h3>Nuestro café especial</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, optio.</p>
+      <span>$5000</span>
+    </div>
+  </a>
+
+</div>
+
+</section>
+<!-- MENU section ends -->
+
+
+<!-- REVIEW Section Starts -->
+
+<section class="review" id="review">
+
+  <h1 class="heading"> Comentarios <span>Lo que opinan nuestros clientes</span></h1>
+
+  <div class="swiper review-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide box">
+
+        <i class="fas fa-quote-left"></i>
+        <i class="fas fa-quote-right"></i>
+
+        <img src="images/stone-board-empty-table-front-blurred-background.jpg" alt="" width="100px" height="100px">
+
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nisi voluptate quisquam deserunt pariatur vero.</p>
+        <h3>Daniel Bran</h3>
+        <span>Cliente satisfecho</span>
+      </div>  
+
+      <div class="swiper-slide box">
+
+        <i class="fas fa-quote-left"></i>
+        <i class="fas fa-quote-right"></i>
+
+        <img src="images/pexels-quang-nguyen-vinh-2159106.jpg" alt="" width="100px" height="100px">
+
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nisi voluptate quisquam deserunt pariatur vero.</p>
+        <h3>Daniel Bran</h3>
+        <span>Cliente satisfecho</span>
+      </div>
+
+      <div class="swiper-slide box">
+
+        <i class="fas fa-quote-left"></i>
+        <i class="fas fa-quote-right"></i>
+
+        <img src="images/pexels-toni-cuenca-585750.jpg" alt="" width="100px" height="100px">
+
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nisi voluptate quisquam deserunt pariatur vero.</p>
+        <h3>Daniel Bran</h3>
+        <span>Cliente satisfecho</span>
+      </div>
+
+      <div class="swiper-slide box">
+
+        <i class="fas fa-quote-left"></i>
+        <i class="fas fa-quote-right"></i>
+
+        <img src="images/pexels-foodie-factor-539432.jpg" alt="" width="100px" height="100px">
+
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half"></i>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nisi voluptate quisquam deserunt pariatur vero.</p>
+        <h3>Daniel Bran</h3>
+        <span>Cliente satisfecho</span>
+      </div>
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+  </div>
+
+
+</section>
+
+<!-- Reviw Section Ends -->
+
+
+
+<!-- Book Section Starts -->
+
+<section class="book" id="book">
+
+  <h1 class="heading"> booking <span>reservaciones</span></h1>
+
+  <form action="">
+
+    <input type="text" placeholder="Nombre" class="box">
+    <input type="email" placeholder="email" class="box">
+    <input type="number" placeholder="número" class="box">
+
+    <textarea name="" placeholder="mensaje" class="box" id="" cols="30" rows="10"></textarea>
+
+    <input type="submit" value="enviar mensaje" class="btn">
+
+  </form>
+
+
+</section>
+
+<!-- Book Section Ends -->
+
+<!-- Map & Calendar-->
+
+
+<section class="map-calendar">
+
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.2898311839087!2d-75.578580528243!3d6.186964341532671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46826082386c8f%3A0x292985c67f6625b8!2sCl.%2017%20Sur%20%2342-131%20a%2042-1%2C%20Medell%C3%ADn%2C%20El%20Poblado%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1sen!2sco!4v1654316385973!5m2!1sen!2sco"
+     width="500" 
+     height="300" 
+     style="border:0;" 
+     allowfullscreen="" 
+     loading="lazy" 
+     referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+
+  <div class="calendar">
+
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=America%2FBogota&showTz=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&title=Eventos%20Caf%C3%A9%20Vivero&src=Y2FmZXZpdmVyb21lZGVsbGluQGdtYWlsLmNvbQ&color=%23039BE5" 
+      style="border:solid 1px #777" 
+      width="500" 
+      height="300" 
+      frameborder="0" 
+      scrolling="no">
+  | </iframe>
+
+  </div>
+
+</section> -->
+
+<!-- Footer section Starts -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <h3>Friends</h3>
+      <a href="#"> <i class="fas fa-arrow-right"></i> Lilo Cake´s </a>
+      <a href="#"> <i class="fas fa-arrow-right"></i> Sodas Artesanales </a>
+      <a href="#"> <i class="fas fa-arrow-right"></i> Café Orgánico </a>
+      <a href="#"> <i class="fas fa-arrow-right"></i> Letras Doradas </a>
+      <a href="#"> <i class="fas fa-arrow-right"></i> Ensarte </a>
+    </div>
+
+    <div class="box">
+      <h3>Links</h3>
+      <a href="#home"> <i class="fas fa-arrow-right"></i> Home </a>
+      <a href="#about"> <i class="fas fa-arrow-right"></i> About </a>
+      <a href="#menu"> <i class="fas fa-arrow-right"></i> Menu </a>
+      <a href="#review"> <i class="fas fa-arrow-right"></i> Review </a>
+      <a href="#book"> <i class="fas fa-arrow-right"></i>  Booking </a>
+    </div>
+
+    <div class="box">
+      <h3>Contact</h3>
+      <a href="#"> <i class="fas fa-phone"></i> +57 302-271-8801 </a>
+      <a href="#"> <i class="fas fa-envelope"></i> cafevivero@gmail.com </a>
+      <a href="#"> <i class="fas fa-map-location"></i> Carrera 43A Calle 16Sur Medellin, Colombia </a>
+    </div>
+
+    <div class="box">
+      <h3>Socal Media</h3>
+      <a href="#"> <i class="fab fa-facebook"></i> Fcebook </a>
+      <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+      <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+      <a href="#"> <i class="fab fa-tiktok"></i> Tik-Tok </a>
+      <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+    </div>
+
+  </div>
+
+  <div class="credit"> Creado por <span>Mr. Gonzo</span>  | Derechos Reservados |</div>
+
+</section>
+
+<!-- Footer section Ends -->
+
+<!-- qr star -->
+<!--  <img src="https://chart.apis.google.com/chart?cht=qr&chs=500x500&chl=https://127.0.0.1:5500/index.html#menu" alt=""> 
+ --><!-- qr ends -->
+
+
+
+
+    <!-- SwiperJs Script -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+
+
+  </body>
+</html>
